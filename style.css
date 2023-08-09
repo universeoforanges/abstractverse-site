@@ -132,6 +132,21 @@ img {
     z-index: 1;
 }
 
+.worldSelector {
+    width: 500px;
+    height: 250px;
+    background-color: rgb(32, 32, 32);
+    border: 7px solid white; /*change the border color here*/
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+    z-index: 1;
+}
+
 body {
     height: 100vh;
     margin: 0;
