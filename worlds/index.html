@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 
 <html>
-<body style="background-color: rgb(32, 32, 32);">
-    <title>error 403 - abstractverse</title>
+<head>
+    <title>Abstractverse - Placeholdername</title>
     <link rel="shortcut icon" type="image/png" href="../icon.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../style.css">
-    </style>
+    <script src="js/AppLauncher.ts"></script>
+    <meta name="registerProtocolHandler" content="web+worldselector://abstractverse.netlify.app/?world=%s">
+</head>
+<body style="background-color: rgb(32, 32, 32);">
     <nav class="topnav">
         <img class="img" src="../abstractverse.png" alt="shapeworld logo" width="110" height="45" ng-href="index.html"></img>
         <a href="https://abstractverse.netlify.app/">Home</a>
@@ -17,12 +20,13 @@
         <a href="../worlds/">Worlds</a>
     </nav>
     <div class="app">
-    <h1 class="maintext"><strong>403 - Forbidden ;(</strong></h1>
-    <p class="maintext">LET ME BE LET ME BE LET ME BE LET ME BE LET ME BE LET ME BE LET ME BE LET ME BE LET ME BE LET ME BE LET ME BE LET ME BE LET ME BE LET ME BE</p>
-    <hr>
-    <div style="display: flex;">
-        <a class="button" href="https://abstractverse.netlify.app/">Home</a>
-        <button class="button" onclick="history.back()">Back</button>
+        <div style="display: flex; padding: 6px;" class="worldSelector">
+            <div style="padding: 5px; display: flex; flex-direction: column; align-items: center;">
+                <p class="maintext">Placeholder of a World Name</p>
+                <img src="../abstractverse.png" width="200", length="100">
+                <p class="maintext">Players: 69/80<br>Total Visits: 420</p>
+                <button class="button" id="worldPlay">Play</button>
+            </div>
         </div>
     </div>
 </body>
