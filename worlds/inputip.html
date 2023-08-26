@@ -8,8 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../style.css">
-    <script src="js/AppLauncher.ts"></script>
-    <meta name="registerProtocolHandler" content="web+worldselector://abstractverse.netlify.app/?world=%s">
+    <script src="js/ipinput.js"></script>
 </head>
 <body style="background-color: rgb(32, 32, 32);">
     <nav class="topnav">
@@ -19,17 +18,20 @@
         <a>Documentation</a>
         <a href="../worlds/">Worlds</a>
     </nav>
+
     <div class="app">
-        <div style="display: flex; padding: 6px;" class="worldSelector">
-            <div style="padding: 5px; display: flex; flex-direction: column; align-items: center;">
-                <p class="maintext">Placeholder of a World Name</p>
-                <img src="../abstractverse.png" width="200", length="100">
-                <p class="maintext">Players: 1/80<br>Total Visits: 420</p>
-                <button class="button" id="worldPlay">Go to world page</button>
-            </div>
-        </div>
+        <h2 class="maintext">Input a valid server IP.</h2>
+        <p class="maintext">e.g. myworld.com, myworld.net, random.hosting.net</p>
+        <form>
+            <input class="button"></input>
+        </form>
         <hr>
-        <a href="joinworld.html" class="maintext">Join a Private World</a>
+        <div style="display: flex;">
+            <button class="button" onclick="createError(404)">Join</button>
+            <hr>
+            <button class="button" onclick="history.back()">Back</button>
+        </div>
+        <p class="maintext" style="color: red; display: none;" id="errtext"><b>⛔ Server IP not found</b></p>
     </div>
 </body>
 </html>
