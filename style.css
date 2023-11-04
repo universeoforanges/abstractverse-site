@@ -53,6 +53,9 @@
 .topnav {
     background-color: #333;
     overflow: hidden;
+
+    position: sticky;
+    top: 0px;
 }
 
 /* Style the links inside the navigation bar */
@@ -117,8 +120,6 @@ img {
 }
 
 .button_div {
-    width: 500px;
-    height: 250px;
     background-color: rgb(32, 32, 32);
     border: 1px solid white; /*change the border color here*/
     border-radius: 10px;
