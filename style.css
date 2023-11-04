@@ -1,13 +1,13 @@
 .maintext {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Alata', sans-serif;
     color: white;
 }
 .centeredcontainertext {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Alata', sans-serif;
     color: white;
 }
 .navright {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Alata', sans-serif;
     margin: 5px;
     text-align: right;
 }
@@ -15,14 +15,13 @@
     color: white;
     background-color: rgb(255, 115, 0);
     font-size: 25px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Alata', sans-serif;
     margin: 0px;
 }
 .button {
-    font-family: 'Source Code Pro', monospace;
-    border: 7px solid white;
+    font-family: 'Alata', sans-serif;
+    border: 1px solid white;
     background-color: rgb(32, 32, 32);
-    font-weight: bold;
     color: white;
     padding: 2px 2px;
     font-size: 16px;
@@ -30,8 +29,8 @@
     border-radius: 10px;
 }
 .button:hover {
-    font-family: 'Source Code Pro', monospace;
-    border: 7px solid white;
+    font-family: 'Alata', sans-serif;
+    border: 1px solid white;
     background-color: white;
     color: black;
     padding: 2px 2px;
@@ -40,8 +39,8 @@
     border-radius: 10px;
 }
 .button:disabled {
-    font-family: 'Source Code Pro', monospace;
-    border: 7px solid rgb(64, 64, 64);
+    font-family: 'Alata', sans-serif;
+    border: 1px solid rgb(64, 64, 64);
     background-color: rgb(64, 64, 64);
     color: white;
     padding: 2px 2px;
@@ -58,7 +57,7 @@
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Alata', sans-serif;
     float: left;
     color: #f2f2f2;
     text-align: right;
@@ -101,7 +100,7 @@ img {
 }
 
 .hero-text {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Alata', sans-serif;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -121,7 +120,7 @@ img {
     width: 500px;
     height: 250px;
     background-color: rgb(32, 32, 32);
-    border: 7px solid white; /*change the border color here*/
+    border: 1px solid white; /*change the border color here*/
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -136,7 +135,7 @@ img {
     width: 500px;
     height: 250px;
     background-color: rgb(32, 32, 32);
-    border: 7px solid white; /*change the border color here*/
+    border: 1px solid white; /*change the border color here*/
     border-radius: 10px;
     display: flex;
     justify-content: center;
