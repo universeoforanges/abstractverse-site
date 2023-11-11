@@ -1,4 +1,0 @@
-function launchWorld(world: String)
-{
-    
-}

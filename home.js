@@ -1,1 +1,17 @@
-var _0x3f6ab9=_0x5d9c;function _0x5d9c(_0x4f4930,_0x5b7338){var _0x12428e=_0x1242();return _0x5d9c=function(_0x5d9c3f,_0x5b043c){_0x5d9c3f=_0x5d9c3f-0x1c9;var _0x1c0061=_0x12428e[_0x5d9c3f];return _0x1c0061;},_0x5d9c(_0x4f4930,_0x5b7338);}(function(_0x57139a,_0x1a3d1b){var _0x51ca86=_0x5d9c,_0x104508=_0x57139a();while(!![]){try{var _0x265a6c=-parseInt(_0x51ca86(0x1d2))/0x1*(-parseInt(_0x51ca86(0x1de))/0x2)+-parseInt(_0x51ca86(0x1cd))/0x3+parseInt(_0x51ca86(0x1d0))/0x4*(parseInt(_0x51ca86(0x1da))/0x5)+parseInt(_0x51ca86(0x1cc))/0x6*(-parseInt(_0x51ca86(0x1d4))/0x7)+parseInt(_0x51ca86(0x1d8))/0x8*(parseInt(_0x51ca86(0x1d5))/0x9)+-parseInt(_0x51ca86(0x1d9))/0xa*(parseInt(_0x51ca86(0x1ca))/0xb)+-parseInt(_0x51ca86(0x1d3))/0xc;if(_0x265a6c===_0x1a3d1b)break;else _0x104508['push'](_0x104508['shift']());}catch(_0x424df7){_0x104508['push'](_0x104508['shift']());}}}(_0x1242,0x5b53b));var randomText=document[_0x3f6ab9(0x1dd)]('random');let randomVal=Math['floor'](Math[_0x3f6ab9(0x1d7)]()*0x9);if(randomVal==0x0)randomText[_0x3f6ab9(0x1dc)]=_0x3f6ab9(0x1d1);else{if(randomVal==0x1)randomText['innerHTML']='Yo\x20i\x20died\x20dont\x20take\x20my\x20stuff\x20plz';else{if(randomVal==0x2)randomText['innerHTML']=_0x3f6ab9(0x1cb);else{if(randomVal==0x3)randomText[_0x3f6ab9(0x1dc)]=_0x3f6ab9(0x1db);else{if(randomVal==0x4)randomText[_0x3f6ab9(0x1dc)]='YO\x20WHY\x20DID\x20YOU\x20DESTROY\x20THE\x20BASE\x20NOW\x20WHERE\x20WE\x20GONNA\x20LIVE';else{if(randomVal==0x5)randomText['innerHTML']=_0x3f6ab9(0x1c9);else{if(randomVal==0x6)randomText[_0x3f6ab9(0x1dc)]=_0x3f6ab9(0x1d6);else{if(randomVal==0x7)randomText[_0x3f6ab9(0x1dc)]='(Guy):\x20this\x20build\x20is\x20trash,\x20try\x20harder\x20<br>\x20(superduper990000):\x20?ban\x20guy\x20mean\x20to\x20owner';else{if(randomVal==0x8)randomText['innerHTML']=_0x3f6ab9(0x1cf);else randomVal==0x9&&(randomText[_0x3f6ab9(0x1dc)]=_0x3f6ab9(0x1ce));}}}}}}}}function _0x1242(){var _0x91fffc=['7NOVMYp','5777361empXSg','BRO\x20I\x20DIED\x20AGAIN\x20THIS\x20GAME\x20SUCKS','random','8AuFFFC','4827430JNPTUV','295cFgsoh','?ban\x20universeoforanges\x20major\x20grief','innerHTML','getElementById','2fuUIon','this\x20kid\x20sucks','11tAWOfN','?kick\x20universeoforanges\x20He\x20said\x20my\x20house\x20sucks','598524VUOJTN','602322YUSGjt','Abstractverse\x20abstractverse{};\x20<br>\x20\x20abstractverse.getSteam()\x20<br>\x20error:\x20getSteam\x20was\x20undefined.\x20did\x20you\x20mean\x20`getALife()?`','XD\x20LOL\x20IM\x20DUM','368yZNeSx','Lovely\x20wannabes\x20:/','556891gAlPrT','562824ieILbp'];_0x1242=function(){return _0x91fffc;};return _0x1242();}
+var messages = [
+    "Lovely wannabes :/",
+    "Yo i died dont take my stuff plz",
+    "?kick universeoforanges He said my house sucks",
+    "?ban universeoforanges major grief",
+    "YO WHY DID YOU DESTROY THE BASE NOW WHERE WE GONNA LIVE",
+    "this kid sucks",
+    "BRO I DIED AGAIN THIS GAME SUCKS",
+    "(Guy): this build is trash, try harder <br> (superduper990000): ?ban guy mean to owner",
+    "XD LOL IM DUM",
+    "Abstractverse abstractverse{}; <br>  abstractverse.getSteam() <br> error: getSteam was undefined. did you mean `getALife()?`"
+]
+
+var randomText = document.getElementById("random");
+let randomVal = Math.floor(Math.random() * 9);
+
+randomText.innerHTML = messages[randomVal];
