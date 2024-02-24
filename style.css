@@ -33,6 +33,7 @@ main {
 }
 
 .app {
+    width: 750px;
     border: 10px solid #333;
     color: white;
     background-color: #242424d7;
