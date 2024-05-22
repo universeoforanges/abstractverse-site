@@ -8,10 +8,10 @@ var messages = [
     "BRO I DIED AGAIN THIS GAME SUCKS",
     "(Guy): this build is trash, try harder <br> (superduper990000): ?ban guy mean to owner",
     "XD LOL IM DUM",
-    "Abstractverse abstractverse{}; <br>  abstractverse.getSteam() <br> error: getSteam was undefined. did you mean `getALife()?`"
+    "Abstractverse abstractverse{}; <br>  abstractverse.getSteam() <br> error: getSteam is undefined. did you mean `getALife()?`"
 ]
 
 var randomText = document.getElementById("random");
-let randomVal = Math.floor(Math.random() * 9);
+let randomVal = Math.floor(Math.random() * messages.length);
 
 randomText.innerHTML = messages[randomVal];
