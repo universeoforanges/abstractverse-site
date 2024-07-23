@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>MSR Advanced</title>
-    <link rel="shortcut icon" type="image/png" href="icon.png"/>
+    <link rel="shortcut icon" type="image/png" href="https://abstractverse.netlify.app/icon.png"/>
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -36,14 +36,21 @@
                                 maxPushConstantSize: 64 bytes
                                 <br> maxUniformBufferRange: 384 bytes
                                 <br> maxBoundDescriptorSets: 4
-                                <br> maxColorAttachments: 2
+                                <br> maxColorAttachments: 1
                                 <br> maxVertexInputAttributes: 6
+                                <br> <b>This is not an exhaustive list.</b>
                             </p>
                             <h1><i class="fa-solid fa-file"></i> Formats</h1>
                             <p>
                                 <b>Your GPU must support at least one of each category.</b>
-                                Color format: VK_FORMAT_R16G16B16A16_SFLOAT
+                                Color format: VK_FORMAT_R16G16B16A16_SFLOAT <br>
                                 Depth formats: VK_FORMAT_D32_SFLOAT, VK_FORMAT_D32_SFLOAT_S8_UINT, VK_FORMAT_D24_UNORM_S8_UINT
+                            </p>
+                            <h1><i class="fa-solid fa-star"></i> Features</h1>
+                            <p>
+                                <b>Your GPU must support all of these required Vulkan 1.0 features.</b>
+                                features.geometryShader
+                                <br> 
                             </p>
                             <p>(Unsure? Check <a href="https://vulkan.gpuinfo.org/">the vulkan gpu database</a> if your GPU is compatible)</p>
                         </div>
